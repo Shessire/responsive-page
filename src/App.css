@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Prompt, Helvetica, sans-serif
+}
+
+p {
+  color: #395f74;
+  font-weight: 600;
+  font-size: calc(12px + 0.5vw);
+}
+
+.header {
+  background-image: url('./background/bg-head.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+.about {
+  display: flex;
+  background-image: url('./background/bg-about.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+}
+
+.about .circle {
+  background-color: rgb(255, 136, 0);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.about .text {
+  max-width: 50%;
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+}
+
+.service {
+  background-image: url('./background/bg-service.jpg');
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.service p {
+  background-color: #395f74;
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+  width: max-content;
+}
+
+.service-img {
+  max-width: 80%; 
+  height: auto;
+}
+
+.service-icon-background {
+  background-image: url('./background/bg-sv-icon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-icon {
+  max-width: 70%; 
+  height: auto;
+}
+
+.portfolio {
+  background-image: url('./background/bg-port.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.gallery {
+  max-width: 100%; 
+  height: auto;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.gallery:hover {
+  transform: scale(1.5);
+}
+
+.video {
+  background-image: url('./background/bg-vdo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.contact {
+  background-image: url('./background/bg-contact.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-icon li {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: #395f74;
+}
+
+.icon {
+  max-height: 80px;
+}
+
+.map {
+  background-color: rgb(187, 170, 170);
+}
+
+.copyright {
+  background-image: url('./background/bg-copyright.jpg');
+}
+
