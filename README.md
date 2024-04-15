@@ -1,4 +1,4 @@
-# responsive-page
+## Responsive Webpage Project
 
 This repository is dedicated to a project focused on crafting a responsive webpage. It's built using the powerful combination of React and React-Bootstrap, embodying the principles of responsive design and interactivity.
 
